@@ -4,7 +4,7 @@
 
 ---
 
-## Основные функции
+## ⚙ Основные функции
 
 - **Добавление задач** — легко создавайте новые дела
 - **Редактирование** — изменяйте текст задачи без лишних кликов
@@ -16,7 +16,7 @@
 
 ---
 
-## Как использовать
+## ✅ Как использовать
 
 1. Скачайте архив с плагином и распакуйте его в удобное место на компьютере.
 2. Откройте браузер Chrome или другой Chromium-браузер.
@@ -27,20 +27,93 @@
 7. Плагин появится в списке расширений и будет доступен для использования.
 
 ---
+## 💻 Технологии
 
-## Важно
+1. React с функциональными компонентами.
+2. Hooks: useState для состояния задач, useMemo и useCallback для оптимизации рендеринга списка.
+3. React.memo на уровне компонента задачи для предотвращения лишних перерисовок.
+4. LocalStorage: автоматическое сохранение и загрузка списка.
+5. Vite: сборка и бандлинг.
+  
+---
+## ❗ Важно
 
 - Данные хранятся локально в вашем браузере — плагин не отправляет информацию на сервер.
 - Если вы удалите плагин, данные тоже будут удалены.
-- Для резервного копирования вы можете экспортировать список задач вручную (функция не реализована, можно добавить).
+
+---
+## ✏ Дополнительно
+
+  - Улучшить навыки использование библиотеки React.
+  - Научиться использовать Хуки перечисленные выше.
 
 ---
 
-## Обратная связь
+## 💬 Обратная связь
 
 Если у вас возникли вопросы или предложения, пишите:  
+@EgorGorynych - Telegram
+Спасибо за использование плагина!
+
+---
+
+
+# ToDo Plugin for Chrome and other Chromium browsers
+
+A simple and convenient plugin for solving management tasks right in the browser. start creating a to-do list, mark completion, administrator and fix problems with recovery via the trash.
+
+---
+
+## ⚙ Main functions
+
+- **Add tasks** — easily create new tasks
+- **Edit** — change the text of the task without unnecessary clicks
+- **Mark completed** — mark tasks as completed.
+- **Delete with trash** — delete tasks, but do not lose them forever
+- **Trash** — restore deleted tasks or empty the trash completely
+- **Filtering** — quickly find the necessary tasks by keywords.
+- **Autosave** — all data is determined in your browser and is not required upon reboot.
+
+---
+
+## ✅ How to use
+
+1. Download the archive with the plugin and unzip it to a convenient location on your computer.
+2. Open the Chrome browser or another Chromium browser.
+3. Go to the extensions section: enter `chrome://extensions/` in the address bar and press Enter.
+4. Enable developer mode (switch in the upper right corner).
+5. Click the **Load unpacked extension** button (Load unpacked extension).
+6. Select the tip with the unpacked plug.
+7. The plugin is in the extended list and will be available for use.
+
+---
+## 💻 Technologies
+
+1. React with functional components.
+2. Hooks: useState for state tasks, useMemo and useCallback to optimize list rendering.
+3. React.memo at the component task level to prevent unnecessary redraws.
+4. LocalStorage: maximum list saving and loading.
+5. Vite: assembly and bundling.
+
+---
+## ❗ Important
+
+- Data is stored locally in your browser - the plugin does not send information to the server.
+- If you delete the plugin, the data will also be deleted.
+
+---
+## ✏ Additional
+
+- Improve your skills in using the React library.
+- Learn to use the Hooks mentioned above.
+
+---
+
+## 💬 Feedback
+
+If you have any questions or suggestions, write:
 @EgorGorynych - Telegram
 
 ---
 
-Спасибо за использование плагина!
+Thank you for using the plugin!
